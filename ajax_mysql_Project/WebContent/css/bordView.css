@@ -1,0 +1,42 @@
+@charset "UTF-8";
+#deleteView{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	left:0;
+	top:0;
+	background: #c3346f4a;
+	display: none;
+
+}
+#deleteCon{	
+	width: 400px;
+	height: auto;
+	position: absolute;
+	left:40%;
+	top:30%;
+	background: #fff;
+}
+#deleteCon table{
+	width: 100%;
+}
+#deleteCon table th{
+	line-height: 50px;
+	font-size: 24px;
+	font-weight: bold;
+}
+#deleteCon table td{
+	line-height: 40px;
+}
+#deleteCon span#close{
+	display: block;
+	width: 30px;
+	line-height: 30px;
+	text-align:center;
+	background: #f00;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
